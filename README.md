@@ -1,11 +1,10 @@
 Project name.
-NGO-Mediator-Platform *
+NGO-Mediator-Platform 
 
-Project description.
+Project description
 This platform serves as an intermediary between NGOs and donors, simplifying the donation process. Donors can offer specific items for donation, and NGOs can coordinate pickups, ensuring efficient and seamless operations.
 
-NGO-Mediator-Platform
-Workflow:
+NGO-Mediator-Platform Workflow:
 
 User Registration/Login:
 User selects their role (NGO/Donor) during registration. Role-specific data is stored in corresponding tables.
