@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Website</title>
+    <link rel="stylesheet" href="style_bh.css">
+</head>
+
+<body>
+    <div id="introduction-page" class="page">
+        <header>
+            <nav class="navbar">
+                <div class="logo">NGO Name</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Welcome to Our NGO</h1>
+                <p>
+                    Making the world a better place, one step at a time, is a powerful and meaningful journey. It starts with small actions, each of which can create a ripple effect that reaches further than we realize. By being mindful of our choices, we can contribute to a positive change, whether through kindness, sustainability, or supporting those in need. It's not about grand gestures, but consistent efforts that add up over time. Every step, no matter how small, has the potential to inspire others and create a collective impact. With patience and persistence, these individual actions can shape a brighter future for all. By committing to this mindset, we can make a lasting difference in the world, one step at a time.</p>
+                <blockquote><i>"Together, we can create a world where no one is left behind."</i></blockquote>
+                <img src="hero-image.jpg" alt="Helping Hands" class="hero-image">
+                <p>At our NGO, we bridge the gap between donors and those in need. Donate old items and bring smiles to
+                    countless faces.</p>
+                <a href="#donation-page" class="btn" onclick="showPage('donation-page')">Get Started</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <img src="about-us.jpg" alt="About Us" class="section-image">
+            <p>We are a non-profit organization dedicated to creating a positive impact by bridging the gap between
+                donors and those in need. Our mission is to simplify the process of donating items like clothing,
+                furniture, and educational supplies, ensuring they reach the people who need them most.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Our Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="clothing.jpg" alt="Clothing for All" class="project-image">
+                    <h3>Clothing for All</h3>
+                    <p>We collect and distribute clothing to families in need, ensuring that no one has to go without
+                        warm, clean clothes.</p>
+                    <a href="#donate" class="btn">Donate Clothes</a>
+                </div>
+                <div class="project">
+                    <img src="essentials.jpg" alt="Home Essentials" class="project-image">
+                    <h3>Home Essentials Drive</h3>
+                    <p>Providing basic home items like furniture, kitchenware, and bedding to low-income households.</p>
+                    <a href="#donate" class="btn">Donate Home Goods</a>
+                </div>
+                <div class="project">
+                    <img src="education.jpg" alt="Educational Supplies" class="project-image">
+                    <h3>Educational Supplies</h3>
+                    <p>We provide underprivileged children with school supplies, books, and learning materials to
+                        support their education.</p>
+                    <a href="#donate" class="btn">Donate School Supplies</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="donate">
+            <h2>Donate</h2>
+            <p>Your donations make a huge difference. Whether it’s old clothes, furniture, or electronics, your unused
+                items can bring joy and utility to others.</p>
+            <img src="donate.jpg" alt="Donate Now" class="section-image">
+            <p>We believe in recycling and reusing to reduce waste. Donating items that no longer serve you can change
+                lives.</p>
+            <div>
+                <a class="btn" onclick="showPage('donation-page')" href="file:///C:/Users/admin/Desktop/Taneeshka/NGO-Mediator-Platform/freya/index_f.html">Donate Now</a>
+            </div>
+        
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need more information, feel free to reach out to us. We are always happy to
+                connect with like-minded people who want to make a positive change.</p>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <label for="contact-name">Name:</label>
+                    <input type="text" id="contact-name" name="name" required>
+
+                    <label for="contact-email">Email:</label>
+                    <input type="email" id="contact-email" name="email" required>
+
+                    <label for="contact-message">Message:</label>
+                    <textarea id="contact-message" name="message" required></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How do I donate items?</h3>
+                <p>To donate, simply fill out the donation form on the Donate section, and we'll guide you through the
+                    process. You can also drop off your items at our center.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Where do my donations go?</h3>
+                <p>Your donations are sent to local NGOs and community organizations that distribute them to those in
+                    need, ensuring that they reach the right hands.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can I volunteer?</h3>
+                <p>If you’re interested in volunteering with our organization, please contact us using the form in the
+                    Contact section, and we will get back to you with more details.</p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Our NGO connects donors with those in need for a positive community impact. Our goal is to make
+                        sure no one is left behind.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <p>Stay connected:</p>
+                    <a href="#"><img src="facebook-icon.png" alt="Facebook" class="social-icon"></a>
+                    <a href="#"><img src="twitter-icon.png" alt="Twitter" class="social-icon"></a>
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram" class="social-icon"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NGO Name. All Rights Reserved. | Designed with ❤️ by [Your Name/Team]</p>
+            </div>
+        </footer>
+    </div>
+
+    
+    <script src="javascript_bh.js"></script>
+</body>
+
+</html>
